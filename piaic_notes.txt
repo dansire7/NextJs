@@ -1,0 +1,28 @@
+classII
+
+-to create new pages you have to create the folder for every new page.
+-to group the folders, you canc reate a folder with brackets and copy all such type of pages.
+-you can copy the layout in page folder to create a separate layout for any specified page only so the layout of this page and global layout will be shown in the website.
+-Webpages can be rendered at client side and/or at server based on applications.
+-by default next js render the pages on server side to make any component on client side you have to mention it by typing 'use client".
+-dynamic page have been created with folder with square brackets.
+------------------------------------------------------------------------------------------------------------------------
+class III
+
+- All event components can be based on client side.
+
+- There are 2 types of rendering.
+- Client Side
+- Server Side
+
+- In server side rendering there 2 two more ways to apply for it.
+- Static server rendering
+example of any blog website, restaurant etc.
+- Dynamic rendering
+example is insta, youtube, facebook etc.
+- for image downloads from unsplash, huggingface, leonardo, pixels
+
+
+
+
+

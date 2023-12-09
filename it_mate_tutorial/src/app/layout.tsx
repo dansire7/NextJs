@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
+// import { Inter } from 'next/font/google' // This is used for fonts
+import './globals.css' //  from this you can access global.css file
+import Navbar from '../../components/navbar'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })// This is used for fonts
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +17,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body /*className={inter.className} - inter.classname is used for fonts*/>
+      <Navbar/>
+        
+                {children}
+      
+      <h1> Footer in Main layout.tsx file </h1>
+        </body>
     </html>
   )
 }
