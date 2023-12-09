@@ -1,0 +1,15 @@
+Project file
+
+- Youtube resource: https://www.youtube.com/watch?v=LrREI99Npnk
+- npx create-next-app@latest --experimental-app
+
+
+- npm run dev (In terminal)
+- if you want to create a separate styling of page create a css file and import css file in page.tsx
+- to separate the heading from each other you can create the class and style the said class only this will not impact any other heading.
+- to create or build static web use command "npm run build" this will build your web and create html files on server.
+- resource page: https://nextjs.org/docs/app/building-your-application/styling/tailwind-css.
+- install tailwind css type follow the steps mentoned on link:"https://nextjs.org/docs/app/building-your-application/styling/tailwind-css"
+- install Tailwind CSS IntelliSense.
+- If you want to button component in multiple areas of page and change the text within it, you can use props and props.text in css file and add the text in page.tsx file i.e. available in page.tsx and button.tsx file.
+- images can be downloaded from discord AI, pixels, midjourney, unsplash, 
