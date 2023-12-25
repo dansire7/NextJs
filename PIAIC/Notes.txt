@@ -1,0 +1,20 @@
+
+==========================Tailwind CSS Commands=======================
+- className = 
+- text-red-50 (font color)
+- text-2xl (font size)
+- text-center (Text Allignment)
+- shadow (for adding the shadow in text box)
+- shadow-red-50 ( for coloring the shadow)
+- font-bold (to bold mark the font)
+- m-4, mx-4, my-4, mt-4, mb-4 (for margins)
+- p-4, px-4, py-4, pt-4, pb-4 (for margins)
+- flex (For content in same line by default it's width is full you can change it with width command)
+- flex w-1/2 (This flex will cover 50% of page)
+- w-1/2 (This is 50% width of page)
+- justify-between, justify-between, justify-evenly (for adjusting the flex horizontaly).
+- items-center (for adjusting the flex vertically)
+- flex gap-x-4 (for adding gap between content in x axis)
+- flex-wrap (for wrapping the flex content to next line)
+- flex-row, flex-col (to create buttons row or column wise)
+- order-1 (This will order the content)
