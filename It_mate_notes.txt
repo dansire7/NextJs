@@ -25,6 +25,14 @@ const Details = (props:any) => {
 
 
 
+Class3
+- <Image src={""} alt="" width="" height = "" loading="lazy"> <Image/>
+- <Image src= {require('../../folder/pic.jpg')}
+- <Link href=""> <Link/>
+- product.map( () => {} )
+============Use State============
+- const [name, setName] = useState ("Ali") (used to change the variable on page)
+- const changeName = () => {setName = "Saleem"}
 
-To review
-https://www.youtube.com/watch?v=5BlmK5Lk9dM&list=PLplW4d4HPsEJEqwyRFM5c8JWBRGt_QJHZ&index=6
+============Use Effect============
+- useEffect( () => {}, []  )

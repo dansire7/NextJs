@@ -1,13 +1,23 @@
-classII
+========================================= class I ====================================
+- Understood the basics of pages, globals.css and layout
+- We can create components and add it in pages as well as in layouts
+- multiple layouts and globals.css file can be added in a new folder of pages.
+- If you have created component of navbar with variable of nav then
+	1. you should import Nav by typing 
+	2. you can call it in pages or layout i.e. <Nav />
+- Javascript will always be used in paranthasis {}
+
+
+========================================= classII ====================================================================
 
 -to create new pages you have to create the folder for every new page.
--to group the folders, you canc reate a folder with brackets and copy all such type of pages.
+-to group the folders, you can create a folder with round brackets and copy all such type of pages.
 -you can copy the layout in page folder to create a separate layout for any specified page only so the layout of this page and global layout will be shown in the website.
 -Webpages can be rendered at client side and/or at server based on applications.
 -by default next js render the pages on server side to make any component on client side you have to mention it by typing 'use client".
 -dynamic page have been created with folder with square brackets.
-------------------------------------------------------------------------------------------------------------------------
-class III
+---------------------------------------- class III ----------------------------------------------------
+
 
 - All event components can be based on client side.
 
@@ -22,7 +32,7 @@ example of any blog website, restaurant etc.
 example is insta, youtube, facebook etc.
 - for image downloads from unsplash, huggingface, leonardo, pixels
 
-
+- images can be downloaded from discord AI, pixels, midjourney, unsplash, 
 
 
 

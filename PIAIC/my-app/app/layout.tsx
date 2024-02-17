@@ -1,7 +1,17 @@
 import type { Metadata } from "next";
 // import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/Components/Navbar";
+// import Navbar from "@/Components/Navbar";
+import Link from "next/link";
+import { Menu } from "lucide-react";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/Components/ui/sheet";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -18,11 +28,83 @@ export default function RootLayout({
   return (
     <html>
       <body>
-        <div>
-          {/* <Navbar/> */}
-          {/* <h2>This is main layout</h2> */}
-          {children}
-        </div>
+        <header className="flex justify-between px-6 py-4 items-center">
+          {/* =====================Logo================================= */}
+          <div className="text-gray-500 font-bold text-3xl">
+            <h1>Penaverse</h1>
+          </div>
+
+          {/* =========================Navbar============================= */}
+          <nav>
+            <ul className="bg-slate-200 text-lg hidden md:flex justify-between gap-x-4 py-2 px-4">
+              <li>
+                <Link
+                  href={"/"}
+                  className="bg-red-300 px-3 py-2 rounded-lg shadow-md "
+                >
+                  Home
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/styling">Styling</Link>
+              </li>
+
+              <li>
+                <Link href={"/flex"}>flex</Link>
+              </li>
+
+              <li>
+                <Link href={"/grid"}>Grid</Link>
+              </li>
+
+              <li>
+                <Link href={"/map"}>Map</Link>
+              </li>
+
+              <li>
+                <Link href={"/responsive"}>Responsive</Link>
+              </li>
+            </ul>
+            <div className="md:hidden">
+              <Sheet>
+                <SheetTrigger>
+                  <Menu />
+                </SheetTrigger>
+                <SheetContent>
+                  <SheetHeader>
+                    <ul className="text-lg md: justify-between gap-x-4 py-2 px-4">
+                      <li>
+                        <Link href={"/"}>Home</Link>
+                      </li>
+
+                      <li>
+                        <Link href="/styling">Styling</Link>
+                      </li>
+
+                      <li>
+                        <Link href={"/flex"}>flex</Link>
+                      </li>
+
+                      <li>
+                        <Link href={"/grid"}>Grid</Link>
+                      </li>
+
+                      <li>
+                        <Link href={"/map"}>Map</Link>
+                      </li>
+
+                      <li>
+                        <Link href={"/responsive"}>Responsive</Link>
+                      </li>
+                    </ul>{" "}
+                  </SheetHeader>
+                </SheetContent>
+              </Sheet>
+            </div>
+          </nav>
+        </header>
+        {children}
       </body>
     </html>
   );

@@ -1,3 +1,25 @@
+=================================Nextjs==================================
+On terminal
+- npx create-next-app (for new project)
+- npm run dev (to up the environment)
+- npm run build (to create static website)
+
+
+On IDE
+
+- import Link from "next/link" (for Using Link)
+- import Nav from "./comp/pages" (for using variable from pages file)
+- <Nav /> (Nav is variable made which will function Nav component)
+
+- variable.map( () => {} ) 		(Its a callback function that loops as per items available in variable)
+- <Image src={item.Image} alt={item.title} height={400} width={400}/> (Image)
+
+
+====================Install Tailwind in Next Js========================
+- resource page: https://nextjs.org/docs/app/building-your-application/styling/tailwind-css.
+- install tailwind css type follow the steps mentoned on link:"https://nextjs.org/docs/app/building-your-application/styling/tailwind-css"
+- install Tailwind CSS IntelliSense.
+
 
 ==========================Tailwind CSS Commands=======================
 - className = 
@@ -5,8 +27,15 @@
 - text-2xl (font size)
 - text-center (Text Allignment)
 - shadow (for adding the shadow in text box)
+- shadow-xl
 - shadow-red-50 ( for coloring the shadow)
 - font-bold (to bold mark the font)
+- font-serif (for font)
+- underline
+- decoration-blue-700 (for underline color)
+- underline-offset-2
+- italic
+
 - m-4, mx-4, my-4, mt-4, mb-4 (for margins)
 - p-4, px-4, py-4, pt-4, pb-4 (for margins)
 - flex (For content in same line by default it's width is full you can change it with width command)
@@ -18,3 +47,25 @@
 - flex-wrap (for wrapping the flex content to next line)
 - flex-row, flex-col (to create buttons row or column wise)
 - order-1 (This will order the content)
+- flex-row-reverse (This will reverse the content).
+- grid
+- grid-cols-3 (to create 3 columns)
+- grid-col-span-3 (this will create single column that merges 3 columns)
+- grid-rows-3 (to create 3 rows)
+- grid-row-span-3 (this will create single row that merges 3 rows)
+- object-cover (this will adjust image in box)
+- h-screen (This will color complete screen).
+
+
+
+
+
+
+
+=========================================process=======================================
+1. First make header section
+2. Divide header section in 2 sub section i.e. left and right
+3. On left side there will be logo
+4. On right side there be navigation bar
+5. Flex the first header section with justify between with ul and li
+6. Flex the 2nd subsection with navigation bar
